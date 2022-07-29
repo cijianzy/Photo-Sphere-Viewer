@@ -151,7 +151,7 @@ export class GalleryPlugin extends AbstractPlugin {
   /**
    * @summary Sets the list of items
    * @param {PSV.plugins.GalleryPlugin.Item[]} items
-   * @param {function<number | string>} [handler] function that will be called when an item is clicked instead of the default behavior
+   * @param {function} [handler] function that will be called when an item is clicked instead of the default behavior
    */
   setItems(items, handler) {
     if (!items?.length) {
